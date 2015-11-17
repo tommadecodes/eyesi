@@ -22,16 +22,11 @@
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/skeleton.css">
 <link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="css/swiper.css">
 
 <!-- Favicon
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link rel="icon" type="image/png" href="images/favicon.png">
-
-<!-- Scripts
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-<link rel="stylesheet" href="css/prettify.css">
 
 </head>
 <body>
@@ -47,7 +42,43 @@
     </div>
 </div>
 
-<!-- End Document
+<!-- Swiper
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
+
+<!-- Scripts
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+<script>        
+    var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    
+    // Navigation arrows
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    })
+</script>
 </body>
 </html>
