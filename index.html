@@ -1,81 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<!-- Basic Page Needs
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <meta charset="utf-8">
 <title>eyesi</title>
 <meta name="description" content="">
 <meta name="author" content="eyesi">
 
-<!-- Mobile Specific Metas
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- FONT
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link href="//fonts.googleapis.com/css?family=Raleway:400,300,60<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>0" rel="stylesheet" type="text/css">
 
-<!-- CSS
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/skeleton.css">
 <link rel="stylesheet" href="css/custom.css">
 <link rel="stylesheet" href="css/swiper.css">
 
-<!-- Favicon
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
 <body>
 
-<!-- Primary Page Layout
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- headline -->
+
 <div class="container">
     <div class="row">
-        <div class="one-half column" style="margin-top: 25%">
+        <div class="one-half column" id="title">
             <h4>Basic Page</h4>
             <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
         </div>
     </div>
 </div>
 
-<!-- Swiper
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!-- Slider main container -->
+
+<!-- swiper -->
+
 <div class="swiper-container">
-    <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
-        <!-- Slides -->
         <div class="swiper-slide">Slide 1</div>
         <div class="swiper-slide">Slide 2</div>
         <div class="swiper-slide">Slide 3</div>
-        ...
     </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-    
-    <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
-    
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-</div>
 
-<!-- Scripts
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- scripts -->
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="js/swiper.jquery.min.js"></script>
 <script>        
     var mySwiper = new Swiper ('.swiper-container', {
-    // Optional parameters
     direction: 'horizontal',
     loop: true,
-    
-    // Navigation arrows
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
     })
