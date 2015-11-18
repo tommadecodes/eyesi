@@ -331,7 +331,7 @@ var loadingTimer;
       blue= '#5ea9fa',
       pink= '#ff85be';
 
-    var intColour;
+    var colourColour;
 
     var colours = [red, green, yellow, pink, blue]
 
@@ -356,16 +356,16 @@ var loadingTimer;
     var paint;
 
 
-    function changeIntColour(){
+    function changecolourColour(){
       var rand = Math.floor(Math.random() * ( colours.length - 1));
-      intColour = colours[rand];
+      colourColour = colours[rand];
       
       setTimeout(function(){
-        changeIntColour();
+        changecolourColour();
       }, 1500);
     }
 
-    changeIntColour();
+    changecolourColour();
 
 
     $('body').on('mousemove',function(e){
@@ -375,7 +375,7 @@ var loadingTimer;
 
       context.beginPath();
       context.arc(mouseX, mouseY, 250, 0, 2 * Math.PI, false);
-      context.fillStyle = intColour;
+      context.fillStyle = colourColour;
       context.fill();
 
     });
@@ -403,7 +403,7 @@ var loadingTimer;
 
       context.beginPath();
       context.arc(mouseX, mouseY, 200, 0, 2 * Math.PI, false);
-      context.fillStyle = intColour;
+      context.fillStyle = colourColour;
       context.fill();
 
     });

@@ -902,7 +902,7 @@ select,
 textarea {
   color: #595558;
   background: #f2f2f2;
-  font-family: "Roboto", helvetica, sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 body {
   -webkit-transition: opacity 0.5s 0.5s;
@@ -1022,7 +1022,7 @@ ul, ol {
     opacity: 1; }
     .content--segment .segment-inner .col-half {
       opacity: 1; }
-      .content--segment .segment-inner .col-half:first-child {
+      /*.content--segment .segment-inner .col-half:first-child {
         -webkit-transition: opacity 0.4s ease-in;
         -moz-transition: opacity 0.4s ease-in;
         -ms-transition: opacity 0.4s ease-in;
@@ -1038,7 +1038,7 @@ ul, ol {
         -moz-transition-delay: 0.25s;
         -ms-transition-delay: 0.25s;
         -o-transition-delay: 0.25s;
-        transition-delay: 0.25s; }
+        transition-delay: 0.25s; }*/
   .content--segment .footer {
     -webkit-transition: opacity 0.4s;
     -moz-transition: opacity 0.4s;
@@ -1234,7 +1234,7 @@ div.copy-large {
   line-height: 170%;
   margin-top: 40px;
   vertical-align: top;
-  margin-bottom: 28px;
+  margin-bottom: 13px;
   color: #595558; }
   @media screen and (min-width: 600px) and (min-height: 634px) {
     .title-large-two {
@@ -1245,7 +1245,7 @@ div.copy-large {
       margin-top: -67px; } }
 
 .copy-large-sans {
-  font-family: 'Roboto', helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 30px;
   vertical-align: top;
@@ -1253,7 +1253,7 @@ div.copy-large {
   letter-spacing: 0.025em; }
 
 .copy-large-sans-two {
-  font-family: 'Roboto', helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 30px;
   vertical-align: top;
