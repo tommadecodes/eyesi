@@ -434,25 +434,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* @license
- * MyFonts Webfont Build ID 2451139, 2013-01-16T11:27:48-0500
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: Neuzeit S Book by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neuzeit-s/neuzeits-book/
- * Copyright: Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted (c) 1990, 2003 Linotype Library GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype Library GmbH, and may no
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2451139
- * 
- * © 2013 MyFonts Inc
-*/
-/* @import must be at top of file, otherwise CSS will not work */
 @font-face {
   font-family: 'Roboto';
   src: url("/assets/fonts/neuzeit_s_book/webfonts/2566C3_0_0.eot");
@@ -1157,12 +1138,13 @@ ul, ol {
 .logo {
   display: block;
   margin: 0 auto;
-  height: 50px;
+  height: 60px;
 }
 
 .copy-large {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  font-weight: 400;
   line-height: 140%;
   text-align: justify; }
   @media screen and (min-width: 600px) and (min-height: 400px) {
@@ -1383,6 +1365,7 @@ div.copy-large {
   width: 100%;
   left: 0px;
   font-size: 11px;
+  font-weight: 400;
   font-family: 'Roboto', sans-serif;
   z-index: 99;
   text-align: left;
@@ -1415,6 +1398,7 @@ div.copy-large {
   width: 100%;
   left: 0px;
   font-size: 11px;
+  font-weight: 400;
   font-family: 'Roboto', sans-serif;
   z-index: 99;
   text-align: left;
@@ -1445,6 +1429,7 @@ div.copy-large {
   width: 100%;
   left: 0px;
   font-size: 11px;
+  font-weight: 400;
   font-family: 'Roboto', sans-serif;
   z-index: 99;
   text-align: left;

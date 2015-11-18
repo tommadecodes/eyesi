@@ -131,13 +131,20 @@ var loadingTimer;
 
   };
 
-  this.itsNiceThatLink = function(){
+  this.swiperPrev = function(){
     
-    $('.js-load-its-nice-that').on('click', function(){
+    $('.swiper-button-prev').on('click', function(){
       event.preventDefault();
       event.stopPropagation();
-      var win = window.open('http://www.itsnicethat.com/', '_blank');
-      win.focus();
+    });
+
+  };
+    
+  this.swiperNext = function(){
+    
+    $('.swiper-button-next').on('click', function(){
+      event.preventDefault();
+      event.stopPropagation();
     });
 
   };
@@ -207,7 +214,7 @@ var loadingTimer;
 
   this.toyOne = function(){
 
-    $(".copy-large").each(function(){
+    $(".copy--large-serif").each(function(){
       var $elm = $(this);
       // var words = $elm.text().split(" ");
    
@@ -236,7 +243,7 @@ var loadingTimer;
 
   this.toyTwo = function(){
 
-    $(".copy-large").each(function(){
+    $(".copy--large-serif").each(function(){
       var $elm = $(this);
       var words = $elm.text().split(" ");
    
@@ -263,7 +270,7 @@ var loadingTimer;
 
   this.toyThree = function(){
 
-    $(".copy-large").each(function(){
+    $(".copy--large-serif").each(function(){
       var $elm = $(this);
       var words = $elm.text().split(" ");
    
@@ -290,7 +297,7 @@ var loadingTimer;
 
   this.toyFour = function(){
 
-    $(".copy-large").each(function(){
+    $(".copy--large-serif").each(function(){
       var $elm = $(this);
       var words = $elm.text().split(" ");
    
@@ -422,7 +429,8 @@ var loadingTimer;
 $(document).ready(function () {
 
   APP.on_page_load_events();
-  APP.itsNiceThatLink();
+  APP.swiperPrev();
+  APP.swiperNext();
   APP.linkFix();
 
   if( $('html').hasClass('toy-one')){
