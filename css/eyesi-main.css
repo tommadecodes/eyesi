@@ -109,6 +109,10 @@ a:hover {
   @media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-device-pixel-ratio: 1.25), only screen and ( min-resolution: 200dpi), only screen and ( min-resolution: 1.25dppx) {-webkit-font-smoothing: subpixel-antialiased; }
 }
 
+.copy-large-sans-two a {
+    border-bottom: 1px solid #595558;
+}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -1213,7 +1217,7 @@ div.copy-large {
         width: 120px; } }
 
 .title-large {
-  letter-spacing: 1px;
+  letter-spacing: 0.025em;
   font-family: 'Roboto', sans-serif;
   font-size: 23px;
   line-height: 170%;
@@ -1224,7 +1228,7 @@ div.copy-large {
       font-size: 26px; } }
 
 .title-large-two {
-  letter-spacing: 1px;
+  letter-spacing: 0.025em;
   font-family: 'Roboto', sans-serif;
   font-size: 23px;
   line-height: 170%;
@@ -1246,7 +1250,7 @@ div.copy-large {
   line-height: 30px;
   vertical-align: top;
   padding-top: 3px;
-  letter-spacing: 1px; }
+  letter-spacing: 0.025em; }
 
 .copy-large-sans-two {
   font-family: 'Roboto', helvetica, sans-serif;
@@ -1255,7 +1259,7 @@ div.copy-large {
   vertical-align: top;
   padding-top: 3px;
   color: #595558;
-  letter-spacing: 1px;
+  letter-spacing: 0.025em;
   margin-bottom: 60px; }
 
 .img-container {

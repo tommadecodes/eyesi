@@ -214,7 +214,7 @@ var loadingTimer;
 
   this.toyOne = function(){
 
-    $(".copy--large-serif").each(function(){
+    $(".copy-large").each(function(){
       var $elm = $(this);
       // var words = $elm.text().split(" ");
    
@@ -243,7 +243,7 @@ var loadingTimer;
 
   this.toyTwo = function(){
 
-    $(".copy--large-serif").each(function(){
+    $(".copy-large").each(function(){
       var $elm = $(this);
       var words = $elm.text().split(" ");
    
@@ -270,7 +270,7 @@ var loadingTimer;
 
   this.toyThree = function(){
 
-    $(".copy--large-serif").each(function(){
+    $(".copy-large").each(function(){
       var $elm = $(this);
       var words = $elm.text().split(" ");
    
@@ -297,7 +297,7 @@ var loadingTimer;
 
   this.toyFour = function(){
 
-    $(".copy--large-serif").each(function(){
+    $(".copy-large").each(function(){
       var $elm = $(this);
       var words = $elm.text().split(" ");
    
