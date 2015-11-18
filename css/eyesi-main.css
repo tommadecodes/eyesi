@@ -6,7 +6,6 @@
 /*
  * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-@import url("//hello.myfonts.net/count/2566c3");
 article,
 aside,
 details,
@@ -1142,14 +1141,17 @@ ul, ol {
     float: left; }
 
 .logo-wrapper {
+  display: block;
   width: 100%;
+  position: static;
+  left: 0;
+  margin-bottom: 40px;
 }
 
 .logo {
   display: block;
   margin: 0 auto;
-  width: 200px;
-  margin-bottom: 50px;
+  height: 50px;
 }
 
 .copy-large {
@@ -1375,7 +1377,7 @@ div.copy-large {
   width: 100%;
   left: 0px;
   font-size: 11px;
-  font-family: 'Roboto', helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   z-index: 99;
   text-align: left;
   margin-top: 60px; }
@@ -1405,7 +1407,7 @@ div.copy-large {
   width: 100%;
   left: 0px;
   font-size: 11px;
-  font-family: 'Roboto', helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   z-index: 99;
   text-align: left;
   margin-top: 60px; }
