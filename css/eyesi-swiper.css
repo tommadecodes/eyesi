@@ -12,6 +12,29 @@
  * 
  * Released on: November 7, 2015
  */
+
+#s-1 {
+    background: url(/images/eyesi-fs-coin-purse-gold.jpg)
+}
+
+#s-2 {
+    background: url(/images/eyesi-fs-purse-cali.jpg)
+}
+
+.swiper-slide {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover!important;
+  -moz-background-size: cover!important;
+  -o-background-size: cover!important;
+  background-size: cover!important;
+  background-position: 50%!important;
+  background-repeat: no-repeat!important;
+  z-index: 1;
+}
+
 .swiper-container {
   width: 100vw;
   height: 100vh;
