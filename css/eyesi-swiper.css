@@ -21,6 +21,30 @@
     background: url(/images/eyesi-fs-purse-cali.jpg)
 }
 
+#s-3 {
+    background: url(/images/eyesi-fs-table-blockwork.jpg)
+}
+
+#s-4 {
+    background: url(/images/eyesi-fs-coaster-fleck.jpg)
+}
+
+#s-5 {
+    background: url(/images/eyesi-fs-duffle-bk.jpg)
+}
+
+#s-6 {
+    background: url(/images/eyesi-fs-duffle-ft.jpg)
+}
+
+#s-7 {
+    background: url(/images/eyesi-fs-tables-blockwork.jpg)
+}
+
+#s-8 {
+    background: url(/images/eyesi-fs-teatowels.jpg)
+}
+
 .swiper-slide {
   display: block;
   position: relative;
@@ -38,6 +62,7 @@
 .swiper-container {
   width: 100vw;
   height: 100vh;
+  max-width: 2048px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
