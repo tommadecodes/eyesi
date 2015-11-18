@@ -103,6 +103,12 @@ a:hover {
  * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
  * and Chrome.
  */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-device-pixel-ratio: 1.25), only screen and ( min-resolution: 200dpi), only screen and ( min-resolution: 1.25dppx) {-webkit-font-smoothing: subpixel-antialiased; }
+}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -1381,10 +1387,10 @@ div.copy-large {
   z-index: 99;
   text-align: left;
   margin-top: 60px; }
-  .footer:before, .footer:after {
+  .footer-nav:before, .footer-nav:after {
     content: " ";
     display: table; }
-  .footer:after {
+  .footer-nav:after {
     clear: both; }
   @media only screen and (min-width: 600px) {
     .footer-nav {
@@ -1399,6 +1405,38 @@ div.copy-large {
       display: inline-block; } }
   @media only screen and (min-width: 879px) {
     .footer-nav a {
+      padding: 20px; } }
+
+.swiper-footer-nav {
+  z-index: 100;
+  *zoom: 1;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  left: 0px;
+  font-size: 11px;
+  font-family: 'Roboto', sans-serif;
+  z-index: 99;
+  text-align: left;
+  margin-top: 60px; }
+  .swiper-footer-nav:before, .swiper-footer-nav:after {
+    content: " ";
+    display: table; }
+  .swiper-footer-nav:after {
+    clear: both; }
+  @media only screen and (min-width: 600px) {
+    .swiper-footer-nav {
+      font-size: 13px; } }
+  @media only screen and (min-width: 879px) {
+    .swiper-footer-nav {
+      position: absolute;
+      text-align: center;
+      margin-top: 0px; } }
+  @media only screen and (min-width: 879px) {
+    .swiper-footer-nav div {
+      display: inline-block; } }
+  @media only screen and (min-width: 879px) {
+    .swiper-footer-nav a {
       padding: 20px; } }
 
 .footer {

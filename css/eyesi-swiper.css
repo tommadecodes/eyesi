@@ -13,6 +13,8 @@
  * Released on: November 7, 2015
  */
 .swiper-container {
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
