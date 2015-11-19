@@ -919,16 +919,16 @@ body {
     opacity: 0; }
   @media screen and (min-width: 879px) {
     body.black-down {
-      cursor: url("../img/down-arrow-black.png") 6 6, auto; } }
+      cursor: url(/images/down-arrow-black.png) 6 6, auto; } }
   @media screen and (min-width: 879px) {
     body.white-down {
-      cursor: url("../img/down-arrow-white.png") 6 6, auto; } }
+      cursor: url(/images/down-arrow-white.png) 6 6, auto; } }
   @media screen and (min-width: 879px) {
     body.white-down.mouse-up {
-      cursor: url("../img/up-arrow-white.png") 6 6, auto; } }
+      cursor: url(/images/up-arrow-white.png) 6 6, auto; } }
   @media screen and (min-width: 879px) {
     body.black-up {
-      cursor: url("../img/up-arrow-black.png") 6 6, auto; } }
+      cursor: url(/images/up-arrow-black.png) 6 6, auto; } }
 
 .toy-five body {
   background: none; }
@@ -1170,27 +1170,28 @@ ul, ol {
     text-align: justify;
     display: inline-block;
     margin-right: 10px; }
-  .copy-large a {
-    margin-right: 10px;
+  .copy-large p {
+    margin-right: 0px;
+    margin-bottom: 0;
     border-bottom: 1px solid;
     line-height: 100%;
     display: inline-block; }
-    .copy-large a span:last-child {
+    .copy-large p span:last-child {
       margin-right: 0px; }
     @media screen and (min-width: 600px) and (min-height: 400px) {
-      .copy-large a {
+      .copy-large p {
         height: 22px; } }
     @media screen and (min-width: 700px) and (min-height: 400px) {
-      .copy-large a {
+      .copy-large p {
         height: 26px; } }
     @media screen and (min-width: 900px) and (min-height: 520px) {
-      .copy-large a {
+      .copy-large p {
         height: 27px; } }
     @media screen and (min-width: 950px) and (min-height: 520px) {
-      .copy-large a {
+      .copy-large p {
         height: 28px; } }
     @media screen and (min-width: 1100px) and (min-height: 600px) {
-      .copy-large a {
+      .copy-large p {
         height: 31px; } }
 
 .toy-four .copy-large span {
